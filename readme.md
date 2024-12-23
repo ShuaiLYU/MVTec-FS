@@ -1,13 +1,12 @@
 # MVTec-FS Dataset
 It is introduced in MVREC: A General Few-shot Defect Classification Model Using Multi-View Region-Context (AAAI 2025)
 ## Overview
-The MVTec-FS dataset is a refined version of the MVTec AD dataset, designed for few-shot learning research. It contains instance-level annotations of anomaly images and is tailored to support tasks such as:
-- Few-shot classification
-- Few-shot object detection
-- Unified multi-modal classification
 
-MVTec-FS aims to advance research in few-shot learning and multi-modal learning by providing carefully curated and diverse anomaly data.
-
+The MVTec-FS dataset is a refined version of the MVTec AD dataset, designed specifically for few-shot learning research. While current anomaly detection tasks primarily focus on defect localization, datasets tailored for defect type classification are rare. To address this gap, we reprocessed the MVTec AD dataset to create a benchmark suitable for:  
+<span style="color:green">- Few-shot defect classification tasks.</span>  
+Additionaly, it also can be used for:  
+<span style="color:green">-Few-shot object detection</span>  
+<span style="color:green">- Unified multi-modal classification</span>
 ## Key Features
 - Instance-level annotations created from the original image-level annotations in MVTec AD using connected component algorithms and manual refinement.
 - Multi-class anomalies with corrected class labels for individual defect instances.
