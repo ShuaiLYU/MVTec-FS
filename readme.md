@@ -34,8 +34,16 @@ Example of label modification:
 ### Dataset Format
 The dataset is organized into folders for each sub-dataset, with separate directories for training and testing images. Each image has a corresponding json file (labeme format).
 
+### Download and Decompress the Dataset
 
+Before starting, ensure all split files (e.g., `image.tar.001` to `image.tar.012`) are present in the same directory.
 
+**Merge and Extract:**
+Use the following command to combine and extract the dataset files:
+
+```
+cat image.tar.* | tar -xvf -
+```
 ### Loading the Dataset
 You can load the dataset using common deep learning libraries such as PyTorch or TensorFlow. Example code snippets for loading and preprocessing the dataset will be provided in the repository.
 
